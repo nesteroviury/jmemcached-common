@@ -4,8 +4,7 @@ import ru.dev.jmemcached.common.exception.JMemcachedException;
 
 public enum Version {
     VERSION_0_0(0, 0),
-    VERSION_1_0(0, 0);
-
+    VERSION_1_0(1, 0);
 
     private byte high;
     private byte low;

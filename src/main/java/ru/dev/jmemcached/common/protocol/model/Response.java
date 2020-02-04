@@ -19,9 +19,12 @@ public class Response extends AbstractPackage {
 
     @Override
     public String toString() {
-        final StringBuilder stringBuilder = new StringBuilder(status.name());
+        final StringBuilder stringBuilder = new StringBuilder(status.name()+" ");
         if (hasData()) {
-            stringBuilder.append("=").append(getData().length).append(" bytes");
+            stringBuilder.append("[")
+                    .append(getData().length)
+                    .append(" bytes")
+                    .append("]");
         }
         return stringBuilder.toString();
     }
