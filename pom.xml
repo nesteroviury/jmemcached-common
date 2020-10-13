@@ -41,7 +41,7 @@
     <commons.io.version>2.5</commons.io.version>
     <commons.lang.version>2.6</commons.lang.version>
     <mockito.version>2.6.3</mockito.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
   </properties>
 
   <build>
